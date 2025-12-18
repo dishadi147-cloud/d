@@ -8,7 +8,8 @@ typedef struct {
     double imag;
 } Complex;
 
-// Функции для работы с комплексными числами
+/
+/ Функции для работы с комплексными числами
 Complex create_complex(double real, double imag) {
     Complex c;
     c.real = real;
