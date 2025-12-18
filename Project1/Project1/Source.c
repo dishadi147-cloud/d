@@ -8,6 +8,7 @@ typedef struct {
     double imag;
 } Complex;
 
+
 Complex add(Complex a, Complex b) {
     return create_complex(a.real + b.real, a.imag + b.imag);
 }
